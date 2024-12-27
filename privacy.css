@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+section h3 {
+  color: #34495e;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 20px;
+  position: relative;
+}
+
+ul li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Centering the Contact Us Section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make sure it's 100% of the viewport height */
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-section ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section a {
+  color: #3498db;
+}
